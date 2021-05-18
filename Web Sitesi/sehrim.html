@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/ustmenu.css">
+    
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">HAKKINDA</a></li>
+            <li><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
+            <li><a href="sehrim.html">ŞEHRİM</a></li>
+            <li><a href="takimimiz.html">TAKIMIMIZ</a></li>
+            <li><a href="">İLGİ ALANLARIM</a></li>
+            <li><a href="">İLETİŞİM</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-8">
+                <h2 class="header">ŞEHRİM</h2><br>
+                <h5>Antalya</h5>
+            <p> 
+                Antalya sahip olduğu arkeolojik ve doğal güzellikler sayesinde “Türk Rivierası” adını almıştır. Deniz, güneş, tarih ve doğanın sihirli bir uyum içinde bütünleştiği Antalya, Akdeniz’in en güzel ve temiz kıyılarına sahiptir. 630 km. uzunluğundaki Antalya kıyıları boyunca, antik kentler, antik limanlar, anıt mezarlar, dantel gibi koylar, kumsallar, yemyeşil ormanlar ve akarsular yer alır.
+
+            </p>
+            <p>
+                Palmiyelerle sıralanmış bulvarları, uluslararası ödül sahibi marinası, geleneksel mimarisi ile şirin bir köşe oluşturan Kaleiçi ve modern mekanları ile Türkiye’nin en önemli Turizm Merkezi olan Antalya, Aspendos Opera ve Bale Festivali, Uluslararası Plaj Voleybolu, Triathlon, Golf Müsabakaları, Okçuluk, Tenis, Kayak yarışmaları vb. etkinliklere, 1995 yılında açılan Antalya Kültür Merkezi ile de plastik sanatlar, müzik, tiyatro, sergi gibi birçok kültürel ve sanatsal etkinliğe ev sahipliği yapmaktadır.
+                <br> <br> Yüzölçümü: 20.815 km² <br>
+
+                <br> Nüfus: 1.132.211 (1990) <br>
+
+                <br> İl Trafik No: 07 <br>
+            </p>
+            <h5>Antalya'da Gezilecek Yerler</h5> <br>
+            <div class="w3-content w3-display-container">
+                <a href="#karain"><img class="mySlides" src="images/karain.jpg" style="width:100%"></a>
+                <a href="#kopru"><img class="mySlides" src="images/kopru.jpg" style="width:100%"></a>
+                <a href="#lara"><img class="mySlides" src="images/lara.jpg" style="width:100%"></a>
+                <a href="#konyaalti"><img class="mySlides" src="images/antalya-konyaaltı.jpg" style="width:100%"></a>
+                <a href="#duden"><img class="mySlides" src="images/duden.jpg" style="width:100%"></a>
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <br><br>
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+            </div>
+        </div>
+        <div class="row" id="karain">
+            <div class="col-md-6 col-sm-12" >
+                <h3>Karain Mağarası</h3>
+                <p>
+                    Döşemealtı ilçesine bağlı Yağca Köyünde yer almaktadır. Arkeolojik çalışmaların yapıldığı Karain Mağarasında çok sayıda tarihi kalıntı bulunmuştur. Mağarada bulunan çeşitli dönemlere ait tarihi eserler Antalya Müzesi ve mağaranın yakınında bulunan müzede sergilenmektedir. Doğal ve tarihi güzelliğe sahip Karain Mağarası görülmesi gereken yerlerdendir.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="gezi_resmi" src="images/karain2.jpg" alt="">
+            </div>
+        </div>
+        <div class="row" id="kopru" style="background: rgba(0, 0, 0, 0.377);">
+            <div class="col-md-6 col-sm-12" >
+                <h3>Köprulu Kanyon</h3>
+                <p>
+                    Isparta’dan başlayan Antalya’da denize dökülen Köprüçayın vadisidir. Köprüçay üzerinde her yıl rafting yapılmaktadır. Çay üzerinde iki tane tarihi köprü bulunduğu için Köprülü Kanyon ismini almıştır.
+
+                    Bu köprülerden büyük olanı usta küçük olanı ise ustanın çırağı tarafından yapılmıştır. Köprüçay’ın coşkulu akan sularında rafting yapabilirsiniz. Ayrıca Köprülü Kanyonunda harika manzaralara şahit olacaksınız.                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="gezi_resmi" src="images/koprulu6.jpg" alt="köprulu kanyon">
+            </div>
+        </div>
+        <div class="row" id="lara">
+            <div class="col-md-6 col-sm-12" >
+                <h3>Lara Plajı</h3>
+                <p>
+                    Lara Plajı güzel kumsala sahip olduğu için bu adı almıştır. Lara Plajı sakin bir denize ve çok soğuk olmayan suya sahiptir. Tatilcilerin gözde yerlerinden olan Lara Plajının hemen arkasında ufak bir orman bulmaktadır. Bu orman içerisinde kamp ve piknik alanları bulunmaktadır. Lara plajında denizin tadını doyasıya çıkarabilir, kamp ve piknik yapabilirsiniz.                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="gezi_resmi" src="images/lara2.jpg" alt="lara plajı">
+            </div>
+        </div>
+        <div class="row" id="duden" style="background: rgba(0, 0, 0, 0.377);">
+            <div class="col-md-6 col-sm-12" >
+                <h3>Düden Şelalesi</h3>
+                <p>
+                    Antalya’ya 10 km uzaklıkta Kepez ilçesinde bulunmaktadır. Kaynağını Kepez Hidroelektrik Santralinden alıp Akdeniz’e dökülen şelale ihtişamlı bir görünüm oluşturmaktadır. Yeşillikler içinde akan şelale bir tabiat harikasıdır. Bu muhteşem manzaraya karşı oturup piknik yapabilirsiniz. </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="gezi_resmi" src="images/duden2.jpg" alt="düden">
+            </div>
+        </div>
+        <div class="row" id="konyaalti">
+            <div class="col-md-6 col-sm-12" >
+                <h3>Konyaaltı Plajı</h3>
+                <p>
+                Antalya’nın en gözde yerlerinden biri olan Konyaaltı Plajı yoğun ilgi görmektedir. Konyaaltı Plajı çevresinde önemli ve çok büyük oteller, barlar, kafeler, gece kulüpleri ve eğlence mekanları bulunmaktadır.                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="gezi_resmi" src="images/konyaaltı.jpg" alt="lara plajı">
+            </div>
+        </div>
+                    
+        
+      </div>
+    
+</body>
+</html>

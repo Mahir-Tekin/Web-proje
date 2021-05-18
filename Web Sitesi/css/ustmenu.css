@@ -2,6 +2,8 @@
 
     body{
         background:url("../images/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .menu{
@@ -47,12 +49,18 @@
         margin-bottom: 100px;
 
     }
+    
     .game-link{
         margin-top: 50px;
     }
     .game-link:hover{
         transform: scale(1.2);
     }
+    .gezi_resmi{
+        width: 90%;
+        align-items: center;
+    }
+    
     
     @media(max-width:930px){
         .menu{
