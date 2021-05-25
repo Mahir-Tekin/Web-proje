@@ -1,0 +1,61 @@
+.giris{
+    padding: 0;
+    background: url("../images/wallpaper.jpg");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: burlywood;
+}
+
+.giris-div1{
+    position: relative;
+    top: 250px;
+    text-align: left;
+    width: 350 px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: rgba(31, 20, 20, 0.534);
+}
+
+.giris-div2 h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+label{
+width: 130px;
+display: inline-block;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 25px;
+    
+}
+
+#submit{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: burlywood;
+}
+
+input[type="submit"],input[type="password"],input[type="password"]{
+    background-color: rgba(95, 87, 17, 0.651);
+    border-radius: 10px;
+    color: wheat;
+}
+#devam{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#devam:hover{
+    transform: scale(1.2);
+}

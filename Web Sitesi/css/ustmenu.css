@@ -60,6 +60,56 @@
         width: 90%;
         align-items: center;
     }
+    input[type="text"],input[type="email"],textarea{
+        border-radius: 10px;
+        background-color: rgba(95, 87, 17, 0.651);
+        width: 60%;
+        color: wheat;
+        padding: 5px;
+        margin: 20px;
+    }
+    textarea{
+        border-radius: 10px;
+        background-color: rgba(95, 87, 17, 0.651);
+        width: 60%;
+        color: wheat;
+        padding: 15px;
+        margin: 20px;
+    }
+    .radioo{
+        margin: 35px auto;
+        text-align: center;
+        
+    }
+    select{
+        border-radius: 10px;
+        background-color: rgba(95, 87, 17, 0.651);
+        color: wheat;
+
+    }
+    .geri-donus{
+        text-align: center;
+    }
+    .text-a{
+        margin: 20px;
+        text-align: center;
+    }
+    .but div{
+        display: flex;
+        align-items: center;
+    }
+    input[type="submit"],input[type="reset"],input[type="date"],input[type="tel"],input[type="number"]{
+        margin: 40px;
+        color: wheat;
+        background-color: rgba(95, 87, 17, 0.651);
+        border-radius: 10px;
+        width: 60%;
+        
+        
+    }
+    
+    
+    
     
     
     @media(max-width:930px){
@@ -78,7 +128,9 @@
         iframe{
             width: 300px;
             height: 230px;
+            
         }
+        
         
 
     }

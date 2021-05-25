@@ -5,96 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/ustmenu.css">
-    
-    
+    <link rel="stylesheet" href="css/giris.css">
 </head>
-<body>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">HAKKINDA</a></li>
-            <li><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
-            <li><a href="sehrim.html">ŞEHRİM</a></li>
-            <li><a href="takimimiz.html">TAKIMIMIZ</a></li>
-            <li><a href="">İLGİ ALANLARIM</a></li>
-            <li><a href="">İLETİŞİM</a></li>
-        </ul>
+<body class="giris">
+    <div class="giris-div1">
+        <form action="giris.php" method="POST">
+            <div class="giris-div2">
+                <h3>GİRİŞ YAP</h3>
+                <label for="KAdi">KULLANICI ADI</label>
+                <input id="KAdi" type="email" required name="KAdi">
+            </div><br>
+            <div class="giris-div2">
+                <label for="sifre">ŞİFRE</label>
+                <input id="sifre" type="password"  name="sifre" required>
+            </div><br>
+            <div class="giris-div2" id="submit">
+                <input type="submit" >
+            </div><br>
+        </form>
+        <a href="hakkinda.html">ÜYE DEĞİLİM</a>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-8">
-                <h2 class="header">HAKKINDA</h2><br>
-            <p>  Ben Mahir Tekin. Antalya'da yaşıyorum. Sakarya Üniversitesi'nde bilgisayar mühendisliği okuyorum.
-            </p>
-            </div>
-        </div>
-        <div class="row" style="background: rgba(16, 94, 97, 0.753); padding: 25px;">
-            <h4>Hobilerim</h4>
-            <div class="row" style="padding: 25px;">
-                <div class="col-md-6 col-sm-12">
-                    <p>
-                        Futbol oynamak seviğim sporlardan biri. Fırsat bulduğumda arkadaşlarımla halı sahaya gidip maç yaparım.
-                    </p>
-                </div>
-                <div class="col-md-6 col-sm-12" >
-                    <img width="80%" style="float: right;" src="images/halısaha.jpg" alt="halısaha">
     
-                </div>
-            </div>
-            <div class="row" style="background: rgba(20, 20, 48, 0.753); padding: 25px;">
-                
-                <div class="col-md-6 col-sm-12">
-                    <br>
-                    <p>
-                        Yüzmek sevdiğim sporlar arasında. Her yaz denize gider yüzerim.
-                    </p>
-                    
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <img width="80%" style="float: right;" src="images/yuzmek.jpg" alt="yüzmek">
-                </div>
-                
-    
-            </div>
-            <div class="row" style="padding: 25px;">
-                <div class="col-md-6 col-sm-12">
-                    <p>
-                        Youtube'da bilim içerikli kanalları takip ederim. Bu tür videoları izlemeyi severim. <br>
-                        Sevdiğim kanallardan biri: <a href="https://www.youtube.com/c/bebarbilim/videos" target="_blank">https://www.youtube.com/c/bebarbilim/videos</a>
-                    </p>
-                </div>
-                <div class="col-md-6 col-sm-12" >
-                    <iframe width="560" style="margin: 20px;" height="315" src="https://www.youtube.com/embed/X0sXDjzu7_8"
-                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                     encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-                </div>
-                <div class="row" style="background: rgba(20, 20, 48, 0.753); padding: 25px;">
-                
-                    <div class="col-md-6 col-sm-12">
-                        <br>
-                        <p>
-                            Bilgisayar oyunu oynamayı severim. <br>En sevdiğim 3 bilgisyara oyunu: <br>
-                            
-                        </p>
-                        <ul>
-                            <li>World Of Tanks</li>
-                            <li>Valheim</li>
-                            <li>League of Legends</li>
-                        </ul>
-                        
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://worldoftanks.eu/tr/game" target="_blank"><img class="game-link" src="images/wot.png" width="130px" alt="World of Tanks"></a>
-                        <a href="https://store.steampowered.com/app/892970/Valheim/" target="_blank"><img class="game-link" src="images/valheim.png" width="130px" alt="World of Tanks"></a>
-                        <a href="https://na.leagueoflegends.com/tr-tr/" target="_blank"><img class="game-link" src="images/lol.png" width="130px" alt="World of Tanks"></a>
-                    </div>
-                    
-        
-                </div>
-
-        </div>
-    </div>
 </body>
 </html>

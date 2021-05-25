@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/ustmenu.css">
+    
+    
+</head>
+<body id="form-body">
+    <div class="menu">
+        <ul>
+            <li><a href="hakkinda.html">HAKKINDA</a></li>
+            <li><a href="ozgecmis.html">ÖZGEÇMİŞ</a></li>
+            <li><a href="sehrim.html">ŞEHRİM</a></li>
+            <li><a href="takimimiz.html">TAKIMIMIZ</a></li>
+            <li><a href="">İLGİ ALANLARIM</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+        </ul>
+    </div>
+    <div class="container" >
+            <h3>İLETİŞİM</h3><br><br>
+            <form action="form.php" method="POST">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <label for="isim">İsim</label>
+                        <input type="text" id="isim" name="isim" required>
+                        
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <label for="Soyisim">Soy İsim</label>
+                        <input type="text" id="Soyisim" name="Soyisim" required>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div> <br><br>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <label for="tarih">Doğum Tarihi</label>
+                        <input type="date" id="tarih" name="tarih" required>
+                        
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="telefon">Telefon</label>
+                        <input type="tel" id="telefon" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="xxx-xxx-xx-xx" required>
+                    </div>
+                    
+                </div> <br><br>
+                <div class="row radioo" >
+                        <div class="col-sm-12 col-md-6" >
+                            <div><h3>Cinsiyetiniz:</h3></div>
+                            <label for="Erkek">Erkek</label>
+                           <input type="radio" id="Erkek" name="cinsiyet" value="Erkek" required>
+                           <label for="Kadın">Kadın</label>
+                           <input type="radio" id="Kadın" name="cinsiyet" value="Kadın">
+                           <label for="Diğer">Diğer</label>
+                           <input type="radio" id="Diğer" name="cinsiyet" value="Diğer" checked>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <h3>Mesaj Türü</h3>
+                            <select name="mesajturu" id="mesajturu" >
+                                <option value="Şikayet">Şikayet</option>
+                                <option value="Öneri">Öneri</option>
+                                <option value="Bildiri">Bildirim</option>
+                            </select>
+                            
+                        </div>
+                        
+                </div>
+                    <div class="row geri-donus" >
+                        <div class="col-md-12 col-sm-12">
+                            <label for="bildirim">E posta ile geri dönuş yapılsın:</label>
+                            <input type="checkbox" id="bildirim" name="bildirim" value="evet">
+                        </div>
+                    </div>
+                    <div class="row text-a">
+                       <div class="col-md-12">
+                           <label for="mesaj">Mesajınız: </label>
+                       </div>
+                       <div class="col-md-12 text-a">
+                           <textarea name="mesaj" id="mesaj" cols="30" rows="10" required>
+                           </textarea>
+                       </div>
+                    </div>
+                    <div class="row but">
+                        <div class="col-md-6 col-sm-12">
+                            <input type="submit">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <input type="reset">
+                        </div>
+                    </div>
+                    
+            </form>
+    </div>
+  </body>
+        
